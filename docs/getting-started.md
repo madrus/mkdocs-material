@@ -103,6 +103,15 @@ extra:
   logo: 'images/logo.png'
 ```
 
+### Changing the favicon icon
+
+If you want your website to have a custom favicon icon, you can copy it to the 
+`docs/images` folder and reference it via:
+
+``` yaml
+site_favicon: 'images/favicon.ico'
+```
+
 ### Link to GitHub releases page
 
 If your project has a GitHub url configured, the default behavior is that a
